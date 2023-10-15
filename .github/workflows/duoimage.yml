@@ -1,9 +1,7 @@
 name: Bulid Milk-V Duo Image
 
 on:
-  push:
-    branches:
-      - develop
+  workflow_dispatch:
 
 env:
   TZ: Asia/Shanghai
