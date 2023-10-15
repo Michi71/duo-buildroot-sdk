@@ -25,6 +25,16 @@
        clock-frequency = <100000>;
 };
 
+&i2s2 {
+	status = "okay";
+	#sound-dai-cells = <0>;
+};
+
+&i2s0 {
+	status = "okay";
+	#sound-dai-cells = <0>;
+};
+
 / {
 
 };
